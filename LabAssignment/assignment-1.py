@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.title("Bresenham Algorithm")
+plt.title("Bresenham Algorithm Presentation")
 plt.xlabel("X Axis")
 plt.ylabel("Y Axis")
 
