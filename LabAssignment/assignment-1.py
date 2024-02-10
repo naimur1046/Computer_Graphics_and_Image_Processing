@@ -19,7 +19,7 @@ def bres(x1, y1, x2, y2):
 
     p = 2 * dy - dx
     
-    # Initialize the plotting points
+    # Ploting point initialization
     xcoordinates = [x]
     ycoordinates = [y]
 
@@ -52,10 +52,10 @@ def bres(x1, y1, x2, y2):
     plt.show()
 
 def main():
-    x1 = int(input("Enter the Starting point of x: "))
-    y1 = int(input("Enter the Starting point of y: "))
-    x2 = int(input("Enter the end point of x: "))
-    y2 = int(input("Enter the end point of y: "))
+    x1 = int(input("Enter the Starting coordinate of x: "))
+    y1 = int(input("Enter the Starting coordinate of y: "))
+    x2 = int(input("Enter the end coordinate of x: "))
+    y2 = int(input("Enter the end coordinate of y: "))
 
     bres(x1, y1, x2, y2)
 
